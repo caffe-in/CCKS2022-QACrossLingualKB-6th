@@ -54,10 +54,10 @@ python main.py --mode train
 **YOU CAN CHANGE THE PARAMETER in main.py**
 
 ```python
-parser.add_argument("--base_path",type=str,default="../data//ccks_ILL11",help="the data path included the kb")
+parser.add_argument("--base_path",type=str,default="../data//ccks_wiki",help="the data path included the kb")
 parser.add_argument("--pretrained_path",type=str,default="/home/pretrains/pt/bert-base-uncased",help="the dir included the pretrain model")
-parser.add_argument("--model_path",type=str,default="lightning_logs/ccks_ILL11/version_0/checkpoints/epoch=11-step=11195.ckpt")
-parser.add_argument("--save_path",type=str,default="ccks_ILL11")
+parser.add_argument("--model_path",type=str,default="lightning_logs/ccks_wiki/version_0/checkpoints/epoch=11-step=11195.ckpt")
+parser.add_argument("--save_path",type=str,default="ccks_wiki")
 parser.add_argument("--mode",type=str,default="train")
 ```
 
