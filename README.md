@@ -18,7 +18,7 @@ the data dir tree should be this. raw data can be get from https://github.com/Re
 
 ```
 data
-©¸©¤ccks_wiki
+----ccks_wiki
         predict_ques.txt
         train_ques.txt
         triples.txt
@@ -37,7 +37,7 @@ the data dir tree now will be this
 
 ```
 data
-©¸©¤ccks_wiki
+----ccks_wiki
         hop_ques.txt
         predict_ques.txt
         train_ques.txt
